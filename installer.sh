@@ -1,26 +1,15 @@
 #!/bin/bash
 ######################################################################################
 ## Command=wget https://raw.githubusercontent.com/tar1971/EPG-PRO/main/installer.sh -O - | /bin/sh
+##
 ###########################################
 ###########################################
 #!/bin/sh
-#
-###########################################
-wget -O /tmp/EPG-PRO-grabber.tar https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true
 echo
-tar -xzf /tmp/EPG-PRO-grabber.tar.gz -C /
-###########################################
-wait
 
-rm -r /tmp/tssat.tar.gz
-
-###########################################
-###########################################
-
+opkg install --force-overwrite  https://github.com/tar1971/feeds-finder/blob/main/feeds-finder_V1.6_py2_all.ipk?raw=true
 sleep 2;
-###########################################
 exit 0
-###########################################
 wait
 exit#########################################################
 
