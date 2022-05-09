@@ -1,14 +1,14 @@
 #!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/emil237/picon-nilesat/main/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/emil237/picon-nilesat/main"  
+ # # Command: wget https://raw.githubusercontent.com/tar1971/EPG-PRO/installer.sh -qO - | /bin/sh # # ########################################### ###########################################  
+MY_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/main"  
 echo "******************************************************************************************************************"
 echo "    download and install picon  "
 echo "============================================================================================================================="
 #####################################################################################
-echo "         install picon-nilesat    "
+echo "         install EPG-PRO    "
 cd /tmp
 set -e 
-wget -q  "https://raw.githubusercontent.com/emil237/picon-nilesat/main/picon-nilesat.tar.gz"
+wget -q  "https://raw.githubusercontent.com/tar1971/EPG-PRO/main/EPG-PRO"
 wait
 tar -xzf picon-nilesat.tar.gz  -C /
 wait
