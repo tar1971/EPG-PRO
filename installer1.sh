@@ -14,7 +14,7 @@ tar -xzf /tmp/EPG-PRO-grabber.tar -C /
 #!/bin/bash
 wait
 echo
-opkg remove tmp/PG-PRO-grabber.tar
+opkg remove tmp/EPG-PRO-grabber.tar
 
 
 
