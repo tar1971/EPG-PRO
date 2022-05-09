@@ -9,11 +9,11 @@
 wget -O /tmp/EPG-PRO-grabber.tar "https://github.com/tar1971/EPG-PRO/blob/main/EPGGrabber.tar.gz?raw=true"
 wait
 echo
-tar -xzf /tmp/*.tar.gz -C /
+tar -xzf /tmp/EPG-PRO-grabber.tar -C /
 
 wait
 echo
-rm -r /tmp/tssat.tar.gz
+opkg remove tmp/PG-PRO-grabber.tar
 
 
 
