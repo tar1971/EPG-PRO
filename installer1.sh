@@ -6,7 +6,7 @@
 #!/bin/sh
 #
 
-wget -O /tmp/tssat.tar.gz "https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"
+wget -O /tmp/EPG-PRO-grabber.tar.gz "https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"
 
 tar -xzf /tmp/*.tar.gz -C /
 
