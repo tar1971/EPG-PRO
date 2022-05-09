@@ -1,12 +1,12 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/NitroAdvanceFHD/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tar1971/EPG-PRO/main/installer.sh -O - | /bin/sh
 ###########################################
 ###########################################
 #!/bin/sh
 #
 
-wget -O /tmp/EPG-PRO-grabber.tar "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
+wget -O /tmp/EPG-PRO-grabber.tar "https://github.com/tar1971/EPG-PRO/blob/main/EPGGrabber.tar.gz?raw=true"
 
 tar -xzf /tmp/*.tar.gz -C /
 
@@ -23,7 +23,7 @@ exit 0
 wait
 exit#########################################################
 
-MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 MY_TMP_FILE="/tmp/"$MY_FILE
 
