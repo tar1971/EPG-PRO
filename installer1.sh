@@ -6,7 +6,7 @@
 #!/bin/sh
 #
 
-wget -O /tmp/tssat.tar.gz "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
+wget -O /tmp/tssat.tar.gz "https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"
 
 tar -xzf /tmp/*.tar.gz -C /
 
