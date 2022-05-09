@@ -1,5 +1,6 @@
-#!/bin/sh # 
- # # Command: wget https://raw.githubusercontent.com/tar1971/EPG-PRO/installer3.sh -qO - | /bin/sh # # ########################################### ###########################################  
+#!/bin/bash
+######################################################################################
+## Command=wget https://raw.githubusercontent.com/tar1971/EPG-PRO/main/installer3.sh -O - | /bin/sh
 MY_URL="https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"  
 echo "******************************************************************************************************************"
 echo "    download and install EPG-PRO  "
