@@ -1,25 +1,26 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/NitroAdvanceFHD/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tar1971/EPG-PRO/main/installer.sh -O - | /bin/sh
 ###########################################
 ###########################################
 #!/bin/sh
 #
-
-wget -O /tmp/EPG-PRO-grabber.tar "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
-
+###########################################
+wget -O /tmp/EPG-PRO-grabber.tar "https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"
+###########################################
 tar -xzf /tmp/*.tar.gz -C /
-
+###########################################
 wait
 
 rm -r /tmp/tssat.tar.gz
 
-
+###########################################
+###########################################
 
 sleep 2;
-
+###########################################
 exit 0
-
+###########################################
 wait
 exit#########################################################
 
