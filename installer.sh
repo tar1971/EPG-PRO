@@ -7,8 +7,8 @@
 #
 ###########################################
 wget -O /tmp/EPG-PRO-grabber.tar https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true
-
-tar -xzf /tmp/*.tar.gz -C /
+echo
+tar -xzf /tmp/EPG-PRO-grabber.tar.gz -C /
 ###########################################
 wait
 
