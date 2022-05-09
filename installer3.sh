@@ -1,6 +1,6 @@
 #!/bin/sh # 
  # # Command: wget https://raw.githubusercontent.com/tar1971/EPG-PRO/installer3.sh -qO - | /bin/sh # # ########################################### ###########################################  
-MY_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/main"  
+MY_URL="https://github.com/tar1971/EPG-PRO/blob/main/EPG-PRO-grabber.tar.gz?raw=true"  
 echo "******************************************************************************************************************"
 echo "    download and install picon  "
 echo "============================================================================================================================="
