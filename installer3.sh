@@ -11,7 +11,13 @@ cd /tmp
 set -e 
 wget -q  "https://raw.githubusercontent.com/tar1971/EPG-PRO/main/EPG-PRO-grabber.tar.gz"
 wait
-tar -xzf EPG-PRO-grabber.tar.gz  -C /
+#!/bin/bash
+echo
+tar xzvpf /tmp/*.tar.gz  -C /
+wait
+sleep 2;
+exit 0
+
 wait
 cd ..
 set +e
