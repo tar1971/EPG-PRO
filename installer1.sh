@@ -6,24 +6,19 @@
 #!/bin/sh
 #
 
-wget -O /tmp/EPG-PRO-grabber.tar "https://github.com/tar1971/EPG-PRO/blob/main/EPGGrabber.tar.gz?raw=true"
+wget -O /tmp/tssat.tar.gz "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
 
-echo
+tar -xzf /tmp/*.tar.gz -C /
 
-tar -xzf /tmp/EPG-PRO-grabber.tar -C /
-echo
 wait
-echo
-opkg remove tmp/EPG-PRO-grabber.tar
+
+rm -r /tmp/tssat.tar.gz
 
 
 
 sleep 2;
 
 exit 0
-
-wait
-exit#########################################################
 
 MY_MAIN_URL="https://raw.githubusercontent.com/tar1971/EPG-PRO/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
