@@ -6,13 +6,13 @@
 ###########################################
 #!/bin/sh
 echo
-
+###########################################
 opkg install --force-overwrite  https://github.com/tar1971/EPG-PRO/blob/main/enigma2-plugin-extensions-epg_v1.1_all.ipk?raw=true
 sleep 2;
 exit 0
 wait
 exit#########################################################
-
+###########################################
 MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/"
 MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_FILE
 MY_TMP_FILE="/tmp/"$MY_FILE
