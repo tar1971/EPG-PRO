@@ -7,9 +7,9 @@
 #
 
 wget -O /tmp/EPG-PRO-grabber.tar "https://github.com/tar1971/EPG-PRO/blob/main/EPGGrabber.tar.gz?raw=true"
-wait
+
 #!/bin/bash
-echo
+
 tar -xzf /tmp/EPG-PRO-grabber.tar -C /
 #!/bin/bash
 wait
