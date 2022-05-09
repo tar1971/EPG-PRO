@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tar1971/feeds-finder/blob/main/feeds-finder_V1.6_py2_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tar1971/EPG-PRO/blob/main/enigma2-plugin-extensions-epg_v1.1_all.ipk?raw=true
 sleep 2;
 exit 0
 wait
